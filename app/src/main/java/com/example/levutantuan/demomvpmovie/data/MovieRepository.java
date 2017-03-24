@@ -34,7 +34,6 @@ public class MovieRepository implements MovieDataSource {
             public void onMoviesLoaded(List<Movie> movies) {
                 callback.onMoviesLoaded(movies);
             }
-
             @Override
             public void onDataNotAvailable() {
             }
