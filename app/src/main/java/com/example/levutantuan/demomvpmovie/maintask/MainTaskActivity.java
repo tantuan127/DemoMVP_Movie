@@ -24,6 +24,7 @@ public class MainTaskActivity extends AppCompatActivity implements MainTaskContr
     private RecyclerView mRecyclerView;
     private LinearLayoutManager mLinearLayout;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -18,7 +18,6 @@ public class MainTaskPresenter implements MainTaskContract.Presenter {
         mView = view;
         mMovieRepository = movieRepository;
     }
-
     @Override
     public void start() {
         loadData(1);
