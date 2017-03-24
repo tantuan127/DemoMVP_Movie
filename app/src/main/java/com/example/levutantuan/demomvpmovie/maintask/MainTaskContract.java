@@ -15,6 +15,7 @@ public interface MainTaskContract {
         void LoadlistError();
         void showViewLoadList(List<Movie> movieList);
     }
+
     interface Presenter extends BasePresenter {
         void getPresenterList(int page);
     }

@@ -16,7 +16,7 @@ public interface MovieDataSource {
     void loadMovies(String api_key, int page, LoadMovieCallback
         callback);
     interface LoadMovieCallback {
-        void onMoviesLoaded(List<Movie> movieList);
+        void onMoviesLoaded(List<Movie> movies);
         void onDataNotAvailable();
     }
 }

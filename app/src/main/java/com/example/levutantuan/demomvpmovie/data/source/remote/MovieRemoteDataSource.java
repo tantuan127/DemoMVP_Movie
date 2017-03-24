@@ -58,7 +58,6 @@ public class MovieRemoteDataSource implements MovieDataSource {
                     callback.onMoviesLoaded(response.body().getResults());
                 }
 
-
                 @Override
                 public void onFailure(Call<MoviesResponse> call, Throwable t) {
                 }
