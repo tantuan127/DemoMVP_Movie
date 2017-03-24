@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data class="MainBinding">
+
+        <variable
+            name="maindatabinding"
+            type="com.example.levutantuan.demomvpmovie.maintask.MainTaskActivity"/>
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_now_playing"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            tools:context="com.framgia.moviedb_05.ui.activity.MainActivity"/>
+    </RelativeLayout>
+</layout>
